@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/travel_recommendation.css">
+</head>
+
+<body>
+    <nav>
+        <h1>&#128640; Travel Recommendation</h1>
+        <ul>
+            <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+            <li><a href="./about_us.html" id="contact">About us</a></li>
+            <li><a href="./contact_us.html" id="contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="contactUs" class="main">
+            <h1 class="mainBanner">CONTACT US</h1>
+            <p class="blahblah">After the tone, please leave your message.</p>
+        </div>
+        <div style="border-left: 1px solid lightcyan;height: 50%;"></div>
+        <div id="contactFormDiv" class="contactFormDiv">
+            <form id="contactForm class="contactForm">
+                <div>
+                    <label for="name" class="messageInput">Name:</label>
+                    <input type="text" id="formName" name="name" class="messageInput" required>
+                </div>
+                <div>
+                    <label for="email" class="messageInput">Email:</label>
+                    <input type="email" id="formEmail" name="email" class="messageInput" required>
+                </div>
+                <div>
+                    <label for="message" class="messageInput">Message:</label>
+                    <textarea id="formMessage" name="message" class="messageInput" required></textarea>
+                </div>
+                <button id="sendButton" onclick="alert('Thank you for contacting us.')">Send</button>
+            </form>
+        </div>
+        <script src="js/about_us.js"></script>
+</body>
+
+</html>

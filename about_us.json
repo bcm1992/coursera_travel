@@ -1,0 +1,7 @@
+{
+    "our_team": [
+        {"name": "Super Mario", "role": "President", "bio": "Highly experienced plumber."},
+        {"name": "Princess Peach", "role": "CFO", "bio": "Good at being rescued."},
+        {"name": "Wario", "role": "CEO", "bio": "Good at kidnapping."}
+    ]
+}
