@@ -51,6 +51,7 @@ function search() {
                 const name = document.createElement("h3");
                 const description = document.createElement("p");
                 image.src = result.imageUrl;
+                image.classList.add("searchResultImage");
                 name.textContent = result.name;
                 description.textContent = result.description;
                 childDiv.appendChild(name);
